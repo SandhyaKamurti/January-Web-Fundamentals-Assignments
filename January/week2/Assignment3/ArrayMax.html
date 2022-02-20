@@ -1,0 +1,28 @@
+<html>
+  <body>
+    <script>
+		var n = parseInt(prompt("How many numbers"));
+		var arr = [];
+		for(var i=0; i<n; i++){
+		    arr[i] = parseInt(prompt("enter numbers"));
+		}
+
+		for (var i = 0; i < arr.length; i++)   
+		{  
+			for (var j = i + 1; j < arr.length; j++)   
+			{  
+				 
+				if (arr[i] > arr[j])   
+				{  
+					var tmp = arr[i];  
+					arr[i] = arr[j];  
+					arr[j] = tmp;  
+				}  
+  
+			}  
+		} 
+		   console.log(arr[n-1]);
+		
+    </script>
+  </body>
+</html>
