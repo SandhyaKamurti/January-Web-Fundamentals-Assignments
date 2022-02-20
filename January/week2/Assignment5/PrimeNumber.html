@@ -1,0 +1,25 @@
+<html>
+  <body>
+    <script>
+        var n = parseInt(prompt("Enter number"));
+        var flag = 0;
+        if(isNaN(n)){
+        	console.log("Enter a number");   
+        }else{
+          for(var i=2; i<n; i++){
+            if(n%i==0){
+              flag=1;
+              break;
+            }else{
+              flag=0; 
+             }
+           }
+        } 
+        if(flag==0){
+	        console.log("Number is prime"); 
+        }else{
+	        console.log("Number is not prime"); 
+        }     
+    </script>
+  </body>
+</html>
