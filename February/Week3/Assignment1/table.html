@@ -1,77 +1,229 @@
+<!DOCTYPE html>
 <html>
 
 <head>
+    <title>Pseudo element</title>
+    <style>
+        thead {
+            background-color: black;
+            color: white;
+        }
+        
+        tbody tr:nth-child(3n+1) {
+            background-color: lightgray;
+        }
+        
+        tbody tr:nth-child(3n+2) {
+            background-color: gray;
+        }
+        
+        tbody tr:nth-child(3n+3) {
+            background-color: darkgray;
+        }
+    </style>
 </head>
 
 <body>
+    <p style="text-align: center;">Class Schedule</p>
     <table border="1">
-        <tr style="background-color: rgb(46, 42, 42); color: wheat;">
-            <th>
-                Concept
-            </th>
-            <th>
-                information
-            </th>
-        </tr>
-
-        <tr style="background-color: darkgray;">
-            <td> Metadata:<br>
-                < meta "attribute">
-            </td>
-            <td>The metadata means information about data. The
-                <meta> tag in HTML provides information about HTML Document or in simple words, it provides important information about a document.</td>
-        </tr>
-
-        <tr style="background-color: lightgray;">
-            <td>Boilerplate</td>
-            <td>Already prepared code</td>
-        </tr>
-
-        <tr style="background-color: darkgray;">
-            <td>Tag<br>&lt;tag&gt;&lt;/tag></td>
-            <td>Whatever written inside &lt and &gt symbol</td>
-        </tr>
-
-        <tr style="background-color: lightgray;">
-            <td>Paragraph tag: &lt;p&gt;&lt;/p&gt;</td>
-            <td>It is a block-level element and always starts on a new line. Before and after each paragraph, browsers add margin automatically. </td>
-        </tr>
-
-        <tr style="background-color: darkgray;">
-            <td>Heading tags<br> &lt;h1&gt;&lt;/h1&gt;
-                <br> &lt;h2&gt;&lt;/h2&gt;
-                <br> &lt;h3&gt;&lt;/h3&gt;
-                <br> &lt;h4&gt;&lt;/h4&gt;
-                <br> &lt;h5&gt;&lt;/h5&gt;
-                <br> &lt;h6&gt;&lt;/h6&gt;
-            </td>
-            <td>&lt;h1&gt; defines the most important heading. &lt;h1&gt; defines the least important heading.</td>
-
-        </tr>
-
-        <tr style="background-color: lightgray;;">
-            <td>Span tag<br>&lt;span&gt;&lt;/span></td>
-            <td>inline container used to mark up a part of a text, or a part of a document</td>
-        </tr>
-
-        <tr style="background-color: darkgray;">
-            <td>anchor tag <br> &lt;a href = "link" &gt;&lt;/a&gt;</td>
-            <td>to link the pages in href we give destination link</td>
-        </tr>
-
-        <tr style="background-color: lightgray;">
-            <td>List <br>&lt;ul&gt;&lt;/ul&gt; <br> &lt;ol&gt;&lt;/ol&gt;
-            </td>
-            <td>
-                An unordered list starts with the &lt;ul&gt;&lt;/ul&gt; tag. Each list item starts with the &lt; li &gt;tag. The list items will be marked with bullets (small black circles) by default.
-                <br> An ordered list starts with the &lt;ol&gt;&lt;/ol&gt; tag. Each list item starts with the &lt; li &gt;tag. The list items will be marked with numbers by default.
-            </td>
-        </tr>
-
-        <tr style="background-color: darkgray;">
-            <td>Image tag <br>&lt;img src = "name" alt="text"&gt;</td>
-            <td>The &lt;img&gt; tag has two required attributes:<br> src - Specifies the path to the image<br> alt - Specifies an alternate text for the image, <br> if the image for some reason cannot be displayed</td>
-        </tr>
+        <thead>
+            <th>Day</th>
+            <th>Date</th>
+            <th>Duration</th>
+            <th>Topic</th>
+            <th>Notes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>17th Jan</td>
+                <td>9-11 pm</td>
+                <td> Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>18th Jan</td>
+                <td>9-11 pm</td>
+                <td>Loops in depth</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>19th Jan</td>
+                <td>9-11 pm</td>
+                <td>Control flows</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>20th Jan</td>
+                <td>9-11 pm</td>
+                <td>Mind maps & flow charts using control flows and loops</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strike>Friday</strike></td>
+                <td><strike>21th Jan</strike></td>
+                <td><strike>9-11 pm</strike></td>
+                <td><strike>Practice Session</strike></td>
+                <td><b>Cancelled</b></td>
+            </tr>
+            <tr>
+                <td><strike>Monday</strike></td>
+                <td><strike>24th Jan</strike></td>
+                <td><strike>8-10pm</strike></td>
+                <td><strike>ECMAScript, Javascript fundamentals, Datatypes, Conditional operator</strike></td>
+                <td><b>Cancelled</b></td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>25th Jan</td>
+                <td>8-10pm</td>
+                <td>Basics Arrays</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>wednesday</td>
+                <td>26th Jan</td>
+                <td>8-10pm</td>
+                <td>Objects</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>27th Jan</td>
+                <td>8-10pm</td>
+                <td>Loops & Functions</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>28th Jan</td>
+                <td>8-10pm</td>
+                <td>Getting familiar with developer tools</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>29th Jan</td>
+                <td>8-10pm</td>
+                <td>-</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b>Sunday</b></td>
+                <td><b>30th Jan</b></td>
+                <td><b>6-8pm</b></td>
+                <td><b>TEST</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>31st Jan</td>
+                <td></td>
+                <td>Getting familiar with HTML/CSS</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>1st Feb</td>
+                <td>8-10pm</td>
+                <td>Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>wednesday</td>
+                <td>2nd Feb</td>
+                <td>8-10pm</td>
+                <td>Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>3rd Feb</td>
+                <td>8-10pm</td>
+                <td>Advance HTML</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>4th Feb</td>
+                <td>8-10pm</td>
+                <td>Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>7th Feb</td>
+                <td>8-10pm</td>
+                <td>CSS Fundamentals</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>8th Feb</td>
+                <td>8-10pm</td>
+                <td>Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>wednesday</td>
+                <td>9th Feb</td>
+                <td>8-10pm</td>
+                <td>CSS Core concepts</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>10th Feb</td>
+                <td>8-10pm</td>
+                <td>CSS Core concepts</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>11th Feb</td>
+                <td>8-10pm</td>
+                <td>Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>14th Feb</td>
+                <td>8-10pm</td>
+                <td>Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>15th Feb</td>
+                <td>8-10pm</td>
+                <td>Javascript Programming Basics</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>wednesday</td>
+                <td>16th Feb</td>
+                <td>8-10pm</td>
+                <td>Javascript Programming Basics</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>17th Feb</td>
+                <td>8-10pm</td>
+                <td>Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>18th Feb</td>
+                <td>8-10pm</td>
+                <td>Javascript Core Concepts</td>
+                <td></td>
+            </tr>
+        </tbody>
     </table>
 </body>
 
