@@ -1,1 +1,230 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Pseudo element</title>
+    <style>
+        thead {
+            background-color: black;
+            color: white;
+        }
+        
+        tbody tr:nth-child(3n+1) {
+            background-color: lightgray;
+        }
+        
+        tbody tr:nth-child(3n+2) {
+            background-color: gray;
+        }
+        
+        tbody tr:nth-child(3n+3) {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+
+<body>
+    <p style="text-align: center;">Class Schedule</p>
+    <table border="1">
+        <thead>
+            <th>Day</th>
+            <th>Date</th>
+            <th>Duration</th>
+            <th>Topic</th>
+            <th>Notes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>17th Jan</td>
+                <td>9-11 pm</td>
+                <td> Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>18th Jan</td>
+                <td>9-11 pm</td>
+                <td>Loops in depth</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>19th Jan</td>
+                <td>9-11 pm</td>
+                <td>Control flows</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>20th Jan</td>
+                <td>9-11 pm</td>
+                <td>Mind maps & flow charts using control flows and loops</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><strike>Friday</strike></td>
+                <td><strike>21th Jan</strike></td>
+                <td><strike>9-11 pm</strike></td>
+                <td><strike>Practice Session</strike></td>
+                <td><b>Cancelled</b></td>
+            </tr>
+            <tr>
+                <td><strike>Monday</strike></td>
+                <td><strike>24th Jan</strike></td>
+                <td><strike>8-10pm</strike></td>
+                <td><strike>ECMAScript, Javascript fundamentals, Datatypes, Conditional operator</strike></td>
+                <td><b>Cancelled</b></td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>25th Jan</td>
+                <td>8-10pm</td>
+                <td>Basics Arrays</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>wednesday</td>
+                <td>26th Jan</td>
+                <td>8-10pm</td>
+                <td>Objects</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>27th Jan</td>
+                <td>8-10pm</td>
+                <td>Loops & Functions</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>28th Jan</td>
+                <td>8-10pm</td>
+                <td>Getting familiar with developer tools</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>29th Jan</td>
+                <td>8-10pm</td>
+                <td>-</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b>Sunday</b></td>
+                <td><b>30th Jan</b></td>
+                <td><b>6-8pm</b></td>
+                <td><b>TEST</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>31st Jan</td>
+                <td></td>
+                <td>Getting familiar with HTML/CSS</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>1st Feb</td>
+                <td>8-10pm</td>
+                <td>Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>wednesday</td>
+                <td>2nd Feb</td>
+                <td>8-10pm</td>
+                <td>Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>3rd Feb</td>
+                <td>8-10pm</td>
+                <td>Advance HTML</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>4th Feb</td>
+                <td>8-10pm</td>
+                <td>Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>7th Feb</td>
+                <td>8-10pm</td>
+                <td>CSS Fundamentals</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>8th Feb</td>
+                <td>8-10pm</td>
+                <td>Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>wednesday</td>
+                <td>9th Feb</td>
+                <td>8-10pm</td>
+                <td>CSS Core concepts</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>10th Feb</td>
+                <td>8-10pm</td>
+                <td>CSS Core concepts</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>11th Feb</td>
+                <td>8-10pm</td>
+                <td>Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>14th Feb</td>
+                <td>8-10pm</td>
+                <td>Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>15th Feb</td>
+                <td>8-10pm</td>
+                <td>Javascript Programming Basics</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>wednesday</td>
+                <td>16th Feb</td>
+                <td>8-10pm</td>
+                <td>Javascript Programming Basics</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>17th Feb</td>
+                <td>8-10pm</td>
+                <td>Practice Session</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>18th Feb</td>
+                <td>8-10pm</td>
+                <td>Javascript Core Concepts</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
