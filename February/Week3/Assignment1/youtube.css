@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 15px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.header-left img {
+    width: 100px;
+}
+
+header i {
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.header-search form {
+    height: 35px;
+    display: flex;
+}
+
+.header-search input {
+    width: 500px;
+}
+
+
+/*aside*/
+
+aside {
+    float: left;
+}
+
+aside div {
+    padding: 12px;
+}
+
+aside span {
+    display: block;
+    font-size: 10px;
+}
+
+
+/*section*/
+
+section button {
+    margin: 14px;
+    padding: 7px;
+    border-radius: 12px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+section i {
+    margin-left: 60px;
+}
+
+
+/*article*/
+
+article .videos1 .video {
+    float: left;
+}
+
+article .videos2 .video {
+    float: left;
+}
+
+article img {
+    border-radius: 50px;
+    height: 50px;
+}
+
+article .profile {
+    float: left;
+}
+
+.video {
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.channel-name {
+    margin-left: 50px;
+    text-decoration: none;
+    color: gray;
+    margin-top: 10px;
+    font-size: 13px;
+}
