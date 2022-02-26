@@ -10,9 +10,9 @@
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     height: 70px;
     padding: 15px;
+    padding-left: 0px;
 }
 
 .header-left {
@@ -37,6 +37,24 @@ header i {
 
 .header-search input {
     width: 500px;
+}
+
+.hidden-menu {
+    top: 100px;
+}
+
+.hidden-menu {
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    padding: 5px;
+    display: none;
+    margin: 0px;
+}
+
+.header-left:hover>.hidden-menu {
+    display: initial;
 }
 
 
