@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Login</title>
+    <title>Signup</title>
     <style>
         .container {
             border: 1px solid lightgray;
@@ -23,7 +23,7 @@
             font-weight: 50%;
         }
         
-        input {
+        .inp {
             width: 250px;
             height: 24px;
             border-radius: 5px;
@@ -59,6 +59,12 @@
         .sign>span {
             color: #0000FF;
         }
+        
+        .psd {
+            width: 120px;
+            height: 24px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 
@@ -66,25 +72,28 @@
     <div class="container">
         <div class="log">
             <p>Full stack Development</p>
-            <b style="font-size: 40px;">Log in</b>
-            <p>Welcome back! Please enter your details</p>
+            <b style="font-size: 40px;">Sign up</b>
+            <p>Let's create your account</p>
 
             <form action="">
+                <label>Username</label><br/>
+                <input type="text" placeholder="Enter Username" name="un" required pattern="[a-z A-Z 0-9]" class="inp" /><br /><br />
+
                 <label>Email</label><br/>
-                <input type="text" placeholder="Enter email" name="email" required pattern=".+@gmail\.com" /><br /><br />
+                <input type="text" placeholder="Enter email" name="email" required pattern=".+@gmail\.com" class="inp" /><br /><br />
 
-                <label>Password</label><br/>
-                <input type="password" placeholder="••••••" name="pass" required pattern=".{8}"><br /><br/>
+                <label>Password</label> &emsp;&emsp;&emsp;&emsp; <label>Confirm Password</label><br/>
+                <input type="password" placeholder="••••••" name="pass" required pattern=".{8}" class="psd">
 
-                <button class="signup">Log in</button><br />
+                <input type="password" placeholder="••••••" name="pass" required pattern=".{8}" class="psd"><br /><br/>
+
+                <button class="signup">Sign up</button><br />
 
                 <pre>----------------OR------------------</pre>
 
-                <button class="google"><img src="https://img.icons8.com/fluency/50/000000/google-logo.png" height="20px"/> <span>Login in with Google</span></button><br /><br />
+                <button class="google"><img src="https://img.icons8.com/fluency/50/000000/google-logo.png" height="20px"/> <span>Sign in with Google</span></button><br /><br />
 
-                <a href="" class="forget">Forget password?</a><br /><br />
-
-                <a href="./signup.html" class="sign">Don't have an account?<span>Sign up</span></a>
+                <a href="./login.html" class="sign">Already have an account?<span>Login up</span></a>
             </form>
         </div>
     </div>
