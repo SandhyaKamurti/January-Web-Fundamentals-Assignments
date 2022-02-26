@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Two level Dropdown</title>
+    <style>
+        .dropdown-hide-level1 {
+            display: none;
+        }
+        
+        .dropdown-hide-level2-1 {
+            display: none;
+        }
+        
+        .dropdown-hide-level2-2 {
+            display: none;
+        }
+        
+        .dropdown-hide-level2-3 {
+            display: none;
+        }
+        
+        .dropdown-hide-level2-4 {
+            display: none;
+        }
+        
+        .dropdown:hover>.dropdown-hide-level1 {
+            display: initial;
+        }
+        
+        .inner-dropdown1:hover>.dropdown-hide-level2-1 {
+            display: initial;
+        }
+        
+        .inner-dropdown2:hover>.dropdown-hide-level2-2 {
+            display: initial;
+        }
+        
+        .inner-dropdown3:hover>.dropdown-hide-level2-3 {
+            display: initial;
+        }
+        
+        .inner-dropdown4:hover>.dropdown-hide-level2-4 {
+            display: initial;
+        }
+        
+        .anchr {
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+            display: block;
+        }
+        
+        .cls a {
+            color: black;
+            text-decoration: none;
+        }
+        
+        .cls a:hover {
+            background-color: lightgray;
+        }
+        
+        .deco a {
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dropdown">
+        <a href="" class="anchr">State</a>
+        <div class="dropdown-hide-level1">
+            <div class="inner-dropdown1 cls">
+                <a href="">Maharashtra</a>
+                <div class="dropdown-hide-level2-1 deco">
+                    <a>Mumbai</a>
+                </div>
+            </div>
+            <div class="inner-dropdown2 cls">
+                <a href="">Karnataka</a>
+                <div class="dropdown-hide-level2-2 deco">
+                    <a>Banglore</a>
+                </div>
+            </div>
+            <div class="inner-dropdown3 cls">
+                <a href="">Madhya Pradesh</a>
+                <div class="dropdown-hide-level2-3 deco">
+                    <a>Bhopal</a>
+                </div>
+            </div>
+            <div class="inner-dropdown4 cls">
+                <a href="">Andhra Pradesh</a>
+                <div class="dropdown-hide-level2-4 deco">
+                    <a>Hyderabad</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
