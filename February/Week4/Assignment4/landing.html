@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        /*header*/
+        
+        body {
+            background-color: #f5fafa;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        b {
+            position: relative;
+            top: 20px;
+            color: rgb(255, 115, 0);
+            font-size: 30px;
+        }
+        
+        .menu a {
+            text-decoration: none;
+            padding: 20px;
+            position: relative;
+            top: 20px;
+            font-weight: 700;
+            font-family: serif;
+        }
+        
+        .header-search {
+            position: relative;
+            top: 20px;
+            right: 50px;
+        }
+        
+        .header-search form {
+            height: 35px;
+            display: flex;
+            width: 100px;
+        }
+        
+        .header-search button {
+            width: 40px;
+        }
+        
+        #ico {
+            background-color: transparent;
+            border: 1px solid transparent;
+        }
+        
+        #ico i {
+            margin-left: 20px;
+        }
+        /*main body*/
+        
+        .main-body {
+            display: flex;
+            position: relative;
+            top: 20px
+        }
+        
+        aside {
+            position: relative;
+            top: 20px
+        }
+        
+        .first {
+            font-size: 50px;
+            /* color: #fc5a03; */
+            font-family: sans-serif;
+            font-weight: 1000;
+        }
+        
+        .sec {
+            font-size: 50px;
+            color: #fc5a03;
+            font-family: sans-serif;
+            font-weight: 1000;
+        }
+        
+        .third {
+            color: rgb(46, 43, 43);
+            font-family: sans-serif;
+        }
+        
+        .btn1 {
+            border-radius: 7px;
+            width: 150px;
+            height: 40px;
+            color: white;
+            background-color: #020b59;
+        }
+        
+        .btn2 {
+            border-radius: 7px;
+            width: 150px;
+            height: 40px;
+            background-color: transparent;
+            margin-left: 100px;
+            border: 1px solid rgb(197, 190, 190);
+        }
+        
+        .last {
+            color: gray;
+            font-weight: 1000;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <b>SWADISHTH</b>
+        </div>
+        <div class="menu">
+            <a href="">Home</a>
+            <a href="">Menu</a>
+            <a href="">Service</a>
+            <a href="">Shop</a>
+        </div>
+        <div class="header-search">
+            <form action="#">
+                <input type="text" placeholder="Search">
+                <button><i class="material-icons">search</i></button>
+                <button id="ico"><i class="material-icons" >shopping_basket</i></button>
+            </form>
+        </div>
+    </header>
+
+    <div class="main-body">
+        <aside>
+            <p class="first">Fastest <span class="sec">
+       Delivery </span>&<span class="sec">
+                Easy </span>Pickup.</p>
+
+            <p class="third">Food assures fresh food every morning evening at any time without getting out in this pandemic</p>
+
+            <br>
+            <br>
+            <button class="btn1">Order Now</button>
+
+            <button class="btn2">Order Process</button>
+            <br><br><br><br>
+
+            <img src="https://img.icons8.com/color/48/000000/naan.png" />
+            <span class="last">When you are too lazy to cook, we are just a click away!</span>
+        </aside>
+        <section>
+            <img src="./land.jpg" alt="">
+        </section>
+    </div>
+</body>
+
+</html>
