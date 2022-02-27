@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chat box</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        .container {
+            display: inline-block;
+            border-radius: 10px;
+            width: 25%;
+        }
+        
+        header {
+            background-color: #247cf0;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            height: 34px;
+            width: 350px;
+            position: fixed;
+        }
+        
+        .time {
+            text-align: center;
+            position: relative;
+            top: 20px;
+            color: gray;
+            font-size: 14px;
+        }
+        
+        button {
+            background-color: #247cf0;
+            color: white;
+            border-radius: 15px;
+            border: 1px solid transparent;
+        }
+        
+        .btn1 {
+            height: 30px;
+            float: right;
+        }
+        
+        .btn2 {
+            width: 200px;
+            background-color: #ededed;
+            color: #363333;
+        }
+        
+        .btn3 {
+            height: 30px;
+            float: right;
+        }
+        
+        .btn4 {
+            width: 200px;
+            background-color: #ededed;
+            color: #363333;
+        }
+        
+        .btn5 {
+            height: 30px;
+            float: right;
+        }
+        
+        input {
+            border: 1px solid transparent;
+        }
+        
+        #emoji {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <p>Sandhya Kamurti</p>
+            </div>
+            <div class="header-right">
+                <i class="material-icons">videocam</i>
+                <i class="material-icons">call</i>
+                <i class="material-icons">settings</i>
+                <i class="material-icons">close</i>
+            </div>
+        </header>
+
+        <div class="main-body">
+            <div class="time">
+                <p>1:15pm</p>
+            </div>
+
+            <div class="chat"><br>
+                <button class="btn1">Howdy!</button><br><br>
+                <button class="btn2">What's up? having a good weekend?</button><br><br>
+                <button class="btn3">Totally! How about you?</button><br><br>
+                <button class="btn4">Good so far! now I just have to convience myself to maw th lawn</button><br><br>
+                <button class="btn5">Oh, brother</button><br><br>
+            </div>
+
+            <div class="inp">
+                <input type="text" placeholder="Type a message..." size="44"><br>
+            </div>
+            <div>
+                <i class="material-icons">collections</i>
+                <i class="material-icons">gif</i>
+                <i class="material-icons">tag_faces</i>
+                <i class="material-icons">monetization_on</i>
+                <i class="material-icons">sports_esports</i>
+                <img src="https://img.icons8.com/material/24/000000/attach--v2.png" />
+                <img id="emoji" src="https://img.icons8.com/material/24/4a90e2/thumb-up--v1.png" />
+            </div>
+        </div>
+</body>
+
+</html>
