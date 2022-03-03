@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="log">
+            <p>Full stack Development</p>
+            <b style="font-size: 40px;">Sign up</b>
+            <p>Let's create your account</p>
+
+            <form action="">
+                <label>Username</label><br/>
+                <input type="text" placeholder="Enter Username" name="un" required class="inp" /><br /><br />
+
+                <label>Email</label><br/>
+                <input type="text" placeholder="Enter email" name="email" required pattern=".+@gmail\.com" class="inp" /><br /><br />
+
+                <label>Password</label> &emsp;&emsp;&emsp;&emsp; <label>Confirm Password</label><br/>
+                <input type="password" placeholder="••••••" name="pass" required pattern=".{8}" class="psd" id="PS">
+                <input type="password" placeholder="••••••" name="cnfrPass" required class="psd" id="CPS"><br /><br/>
+                <input type="submit" class="signup" onclick="confirm_password()"><br />
+                <pre>----------------OR------------------</pre>
+
+                <button class="google"><img src="https://img.icons8.com/fluency/50/000000/google-logo.png" height="20px"/> <span>Sign in with Google</span></button><br /><br />
+
+                <a href="./login.html" class="sign">Already have an account?<span>Login up</span></a>
+            </form>
+        </div>
+    </div>
+    <script src="./javascript.js"></script>
+</body>
+
+</html>
