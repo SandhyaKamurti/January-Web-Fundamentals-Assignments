@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Signup</title>
+    <title>Sign up</title>
     <link rel="stylesheet" href="./css.css">
 </head>
 
@@ -19,8 +19,6 @@
 
                 <label>Email</label><br/>
                 <input type="text" placeholder="Enter email" name="email" required pattern=".+@gmail\.com" class="inp" /><br /><br />
-
-                <label>Password</label> &emsp;&emsp;&emsp;&emsp; <label>Confirm Password</label><br/>
                 <input type="password" placeholder="••••••" name="pass" required pattern=".{8}" class="psd" id="PS">
                 <input type="password" placeholder="••••••" name="cnfrPass" required class="psd" id="CPS"><br /><br/>
                 <input type="submit" class="signup" onclick="confirm_password()"><br />
@@ -32,6 +30,7 @@
             </form>
         </div>
     </div>
+    <h1 id="op_text"></h1>
     <script src="./javascript.js"></script>
 </body>
 
