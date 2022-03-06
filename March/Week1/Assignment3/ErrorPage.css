@@ -1,145 +1,153 @@
-body {
-    margin: 0px;
-    background-color: #fafafa;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-header h3 {
-    font-family: 'Roboto', sans-serif;
-    color: #05094d;
-    display: inline;
-    font-size: 28px;
-}
-
-header i {
-    color: #05094d;
-    position: relative;
-    top: 4px;
-    margin: 25px 0px 0px 20px;
-}
-
-.menu {
-    display: flex;
-    position: relative;
-    right: 30px;
-}
-
-.menu p {
-    margin: 30px 20px 0px 20px;
-    cursor: pointer;
-}
-
-.menu button {
-    background-color: #59cfa5;
-    color: white;
-    padding: 10px;
-    width: 160px;
-    font-size: 15px;
-    border-radius: 10px;
-    height: 40px;
-    border: 1px solid transparent;
-    position: relative;
-    top: 15px;
-    left: 5px;
-    cursor: pointer;
-}
-
-.main-body {
-    display: flex;
-    justify-content: space-between;
-}
-
-section img {
-    height: 550px;
-    width: 500px;
-    position: relative;
-    left: 30px;
-}
-
-aside {
-    position: relative;
-    right: 100px;
-    top: 50px;
-}
-
-aside h1 {
-    color: #05094d;
-    font-size: 50px;
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 1000;
-}
-
-aside h2 {
-    position: relative;
-    bottom: 45px;
-    color: #e36939;
-    font-size: 35px;
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 1000;
-}
-
-aside p {
-    position: relative;
-    bottom: 65px;
-    color: #05094d;
-    font-size: 18px;
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Roboto', sans-serif;
-}
-
-aside span {
-    color: #e36939;
-    font-size: 18px;
-    position: relative;
-    bottom: 10px;
-    left: 5px;
-}
-
-aside i {
-    color: #05094d;
-}
-
-.ic {
-    position: relative;
-    bottom: 50px;
-}
-
-aside button {
-    background-color: #e3a642;
-    color: #05094d;
-    padding: 10px;
-    width: 160px;
-    font-size: 15px;
-    border-radius: 10px;
-    height: 40px;
-    border: 1px solid transparent;
-    position: relative;
-    top: 15px;
-    left: 5px;
-    cursor: pointer;
-    font-weight: 500;
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Roboto', sans-serif;
-}
-
-footer {
-    display: flex;
-}
-
-footer img {
-    height: 20px;
-    padding: 5px;
-}
-
-footer p {
-    color: #05094d;
-    padding: 10px;
-    position: relative;
-    bottom: 20px;
-}
+        body {
+            margin: 0px;
+            background-color: #fafafa;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        header h3 {
+            font-family: 'Roboto', sans-serif;
+            color: #05094d;
+            display: inline;
+            font-size: 28px;
+        }
+        
+        header i {
+            color: #05094d;
+            position: relative;
+            top: 4px;
+            margin: 25px 0px 0px 20px;
+        }
+        
+        .menu {
+            display: flex;
+            position: relative;
+            right: 30px;
+        }
+        
+        .menu p {
+            margin: 30px 20px 0px 20px;
+            cursor: pointer;
+        }
+        
+        .menu button {
+            background-color: #59cfa5;
+            color: white;
+            padding: 10px;
+            width: 160px;
+            font-size: 15px;
+            border-radius: 10px;
+            height: 40px;
+            border: 1px solid transparent;
+            position: relative;
+            top: 15px;
+            left: 5px;
+            cursor: pointer;
+        }
+        
+        .main-body {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        section img {
+            height: 550px;
+            width: 500px;
+            position: relative;
+            left: 30px;
+        }
+        
+        aside {
+            position: relative;
+            right: 100px;
+            top: 50px;
+        }
+        
+        aside h1 {
+            color: #05094d;
+            font-size: 50px;
+            font-family: 'Fredoka', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 1000;
+        }
+        
+        aside h2 {
+            position: relative;
+            bottom: 45px;
+            color: #e36939;
+            font-size: 35px;
+            font-family: 'Fredoka', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 1000;
+        }
+        
+        aside p {
+            position: relative;
+            bottom: 65px;
+            color: #05094d;
+            font-size: 18px;
+            font-family: 'Fredoka', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        aside span {
+            color: #e36939;
+            font-size: 18px;
+            position: relative;
+            bottom: 10px;
+            left: 5px;
+        }
+        
+        aside i {
+            color: #05094d;
+        }
+        
+        .ic {
+            position: relative;
+            bottom: 50px;
+        }
+        
+        aside button {
+            background-color: #e3a642;
+            color: #05094d;
+            padding: 10px;
+            width: 160px;
+            font-size: 15px;
+            border-radius: 10px;
+            height: 40px;
+            border: 1px solid transparent;
+            position: relative;
+            top: 15px;
+            left: 5px;
+            cursor: pointer;
+            font-weight: 500;
+            font-family: 'Fredoka', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        footer {
+            display: flex;
+        }
+        
+        footer img {
+            height: 20px;
+            padding: 5px;
+            position: relative;
+            top: 70px;
+        }
+        
+        footer p {
+            color: #05094d;
+            padding: 10px;
+            position: relative;
+            top: 50px;
+        }
+        
+        section h1 {
+            display: inline;
+            color: #e36939;
+            font-size: 400px;
+        }
