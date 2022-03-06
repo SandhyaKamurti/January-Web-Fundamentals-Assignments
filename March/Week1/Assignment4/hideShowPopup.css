@@ -1,0 +1,21 @@
+ body {
+     margin: 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+ 
+ .popup {
+     position: fixed;
+     width: 100vw;
+     top: 40%;
+     background-color: white;
+     border: 1px solid gray;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ .hide-popup {
+     display: none;
+ }
