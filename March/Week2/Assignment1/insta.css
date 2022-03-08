@@ -1,0 +1,185 @@
+body {
+    border: 1px solid gray;
+    width: 410px;
+    height: 606px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left h1 {
+    position: relative;
+    bottom: 20px;
+    font-family: 'Dancing Script';
+    font-weight: 1000;
+}
+
+.header-right img {
+    height: 25px;
+    position: relative;
+    top: 10px;
+    margin-right: 5px;
+}
+
+.status {
+    display: flex;
+    position: relative;
+    bottom: 25px;
+}
+
+.status img {
+    display: flex;
+    border-radius: 50px;
+}
+
+.status .single-image-your {
+    border-radius: 50%;
+    border: 1px solid gray;
+    position: relative;
+    left: 9px;
+    height: 87px;
+    width: 87px;
+    margin-top: 3px;
+}
+
+.status .single-image {
+    border-radius: 50%;
+    margin-left: 13px;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid red;
+    color: #000;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    height: 80px;
+    width: 80px;
+}
+
+.status p {
+    position: relative;
+    bottom: 13px;
+}
+
+.status1 p {
+    position: relative;
+    left: 10px;
+}
+
+.status2 p {
+    margin-left: 21px;
+}
+
+.status3 p {
+    margin-left: 30px;
+}
+
+.status4 p {
+    margin-left: 19px;
+}
+
+.post {
+    position: relative;
+    bottom: 30px;
+}
+
+.name img {
+    height: 36px;
+    width: 36px;
+    border-radius: 50px;
+}
+
+.name {
+    display: flex;
+}
+
+.para p:first-child {
+    position: relative;
+    bottom: 12px;
+    left: 7px;
+    font-style: bold;
+    font-size: 14px;
+}
+
+.para p:last-child {
+    position: relative;
+    bottom: 27px;
+    left: 7px;
+    font-style: bold;
+    font-size: 14px;
+}
+
+.name i {
+    position: relative;
+    left: 280px;
+}
+
+.picture img {
+    width: 410px;
+    position: relative;
+    bottom: 30px;
+}
+
+.like {
+    display: flex;
+    position: relative;
+    bottom: 25px;
+}
+
+.like-right img {
+    height: 21px;
+    margin-left: 5px;
+}
+
+.like-left img {
+    height: 21px;
+    margin-left: 300px;
+}
+
+footer img {
+    height: 21px;
+}
+
+footer img:first-child {
+    margin-left: 15px;
+}
+
+footer img:nth-child(1) {
+    margin-right: 65px;
+}
+
+footer img:nth-child(2) {
+    margin-right: 65px;
+}
+
+footer img:nth-child(3) {
+    margin-right: 65px;
+}
+
+footer img:nth-child(4) {
+    margin-right: 65px;
+}
+
+footer .single-image-your {
+    height: 24px;
+    width: 24px;
+    border-radius: 50px;
+}
+
+footer {
+    position: relative;
+    bottom: 25px;
+}
+
+.popuptext {
+    /* visibility: hidden;*/
+    display: none;
+    width: 410px;
+    height: 605px;
+}
+
+.show {
+    /*visibility: visible;*/
+    display: initial;
+}
