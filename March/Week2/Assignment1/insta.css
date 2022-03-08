@@ -1,5 +1,4 @@
 body {
-    border: 1px solid gray;
     width: 410px;
     height: 606px;
 }
@@ -172,14 +171,21 @@ footer {
     bottom: 25px;
 }
 
+.popuptext img {
+    width: 420px;
+    height: 605px;
+}
+
 .popuptext {
     /* visibility: hidden;*/
     display: none;
-    width: 410px;
-    height: 605px;
 }
 
 .show {
     /*visibility: visible;*/
     display: initial;
+}
+
+.hide {
+    display: none;
 }
