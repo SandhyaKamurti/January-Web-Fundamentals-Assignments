@@ -5,13 +5,12 @@
         }
         
         .container {
-            height: 360px;
             width: 410px;
             background: #fff;
             position: relative;
             left: 400px;
-            top: 120px;
             border-radius: 10px;
+            display: inline-block;
         }
         
         header h1 {
