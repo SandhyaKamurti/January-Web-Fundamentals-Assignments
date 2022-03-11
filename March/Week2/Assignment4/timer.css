@@ -1,0 +1,64 @@
+ body {
+            background: black;
+        }
+        /*HEADER*/
+        
+        header {
+            text-align: center;
+        }
+        
+        header i,
+        span {
+            color: #7096d4;
+        }
+        
+        header span {
+            font-size: 20px;
+            position: relative;
+            bottom: 3px;
+            left: 3px;
+        }
+        /*TIMER*/
+        
+        .timer {
+            text-align: center;
+            color: #fff;
+        }
+        
+        .timer span {
+            color: #fff;
+            font-size: 100px;
+        }
+        
+        .timer span:nth-child(2) {
+            position: relative;
+            left: 30px;
+        }
+        /*FOOTER*/
+        
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        footer button:nth-child(1) {
+            background-color: #7096d4;
+            font-weight: 1000;
+            border-color: transparent;
+            border-radius: 3px;
+            padding: 5px;
+            width: 80px;
+            cursor: pointer;
+        }
+        
+        footer button:nth-child(2) {
+            background-color: #fff;
+            font-weight: 1000;
+            border-color: transparent;
+            border-radius: 3px;
+            padding: 5px;
+            width: 80px;
+            position: relative;
+            left: 10px;
+            cursor: pointer;
+        }
