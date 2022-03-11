@@ -1,5 +1,5 @@
  let sec = 60;
-        let min = 5;
+        let min = 4;
         const simple_fn = function() {
             const seconds = document.getElementById('sec');
             seconds.innerText = `${sec}s`;
@@ -26,7 +26,7 @@
 
         const fn = function() {
             sec = 60;
-            min = 5;
+            min = 4;
             const seconds = document.getElementById('sec');
             seconds.innerText = `${sec}s`;
             const minutes = document.getElementById('min');
