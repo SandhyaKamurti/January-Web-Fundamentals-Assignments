@@ -1,0 +1,66 @@
+   body {
+            margin: 0px;
+        }
+        
+        .notes {
+            display: flex;
+            font-family: sans-serif;
+        }
+        
+        .notes_sidebar {
+            width: 300px;
+            border-right: 2px solid #dddddd;
+            padding: 1em;
+        }
+        
+        .add_notes {
+            background: #6f03fc;
+            border: none;
+            border-radius: 7px;
+            color: white;
+            cursor: pointer;
+            font-size: 21px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            padding: 15px 0;
+            width: 300px;
+        }
+        
+        .notes-list {
+            cursor: pointer;
+        }
+        
+        .notes_preview {
+            display: flex;
+            flex-direction: column;
+            padding: 20px 30px;
+        }
+        
+        .input_notes_title,
+        .input_notes_body {
+            border: none;
+            width: 800px;
+        }
+        
+        .input_notes_title {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        
+        .input_notes_body {
+            font-size: 20px;
+            margin-top: 20px;
+            height: 200px;
+        }
+        
+        .note {
+            overflow: hidden;
+            height: 80px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        span {
+            font-weight: 100;
+            font-size: 15PX;
+        }
