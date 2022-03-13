@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note making</title>
+    <link rel="stylesheet" href="./notes.css">
+</head>
+
+<body>
+    <div class="notes" id="app">
+        <div class="notes_sidebar">
+            <button class="add_notes" id="add_btn">Add notes</button>
+
+            <div class="notes_list" id="notes_list">
+                <!-- <div class="notes_list_item">
+                    <div id="notes_title">
+                        <h2>Lecture Notes</h2>
+                    </div>
+                    <div id="notes_body">
+                        <p></p>
+                    </div>-->
+                <div class="note">
+                    <h2>Lecture Notes<br><span> I learnt something</span></h2>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="notes_preview">
+            <input type="text" class="input_notes_title" placeholder="Enter title" id="todo_input">
+            <textarea class="input_notes_body" placeholder="Enter Description of notes" id="todo_input2"></textarea>
+        </div>
+    </div>
+
+    <script>
+        <script src="./notes.js"></script>
+    </script>
+</body>
+
+</html>
