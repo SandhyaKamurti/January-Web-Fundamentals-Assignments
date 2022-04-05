@@ -1,64 +1,86 @@
 <html>
-  <body>
+
+<head>
+</head>
+
+<body>
     <script>
-       var obj = {
-	"first_name": "Aayush",
-	"last_name": "Sinha",
-	"email": "aayush.aryan@me.com",
-	"website": "sdfhsdhfjds",
-	"k": "This is Key K's value",
-	"students": [
-		{
-			"name": "Name 1",
-			"marks": 15
-		},
-		{
-			"name": "Name 2",
-			"marks": 17
-		},
-		{
-			"name": "Name 3",
-			"marks": 19
-		},
-		{
-			"name": "Name 4",
-			"marks": 21
-		},
-		{
-			"name": "Name 5",
-			"marks": 0
-		},
-		{
-			"name": "Name 6",
-			"marks": 27
-		},
-		],
-	};
+        var obj = {
+            "first_name": "Aayush",
+            "last_name": "Sinha",
+            "email": "aayush.aryan@me.com",
+            "website": "sdfhsdhfjds",
+            "k": "This is Key K's value",
+            "students": [{
+                "name": "Name 1",
+                "marks": 15
+            }, {
+                "name": "Name 2",
+                "marks": 17
+            }, {
+                "name": "Name 3",
+                "marks": 19
+            }, {
+                "name": "Name 4",
+                "marks": 21
+            }, {
+                "name": "Name 5",
+                "marks": 0
+            }, {
+                "name": "Name 6",
+                "marks": 27
+            }, ],
+        };
 
 
-var m = parseInt(prompt("Enter a Number"));
-var len = obj.students.length;
-if(isNaN(m)){
-	alert("Enter a valid number");
-}
-else{
-	var k = 0;
-	for (var i =0; i<len; i++){
-		var ch = obj.students[i];
-		if(ch.marks>=m)
-		{
-			k++;
-			console.log("Name : "+ ch.name+"\n");
-			console.log("Marks : "+ ch.marks+"\n");
-		}
-	}
-}
+        var n = parseInt(prompt("enter a number"));
+        if (isNaN(n)) {
+            alert("Enter a valid number");
+        } else {
+            for (var i = 0; i < obj.students.length; i++) {
+                var mark = obj.students[i].marks;
+                if (mark >= n) {
+                    console.log("Name : " + obj.students[i].name);
+                    console.log("marks : " + mark);
+                }
+            }
+        }
 
+        //Loop through array inside object
+        /*var stud = [{
+            "name": "Name 1",
+            "marks": 15
+        }, {
+            "name": "Name 2",
+            "marks": 17
+        }, {
+            "name": "Name 3",
+            "marks": 19
+        }, {
+            "name": "Name 4",
+            "marks": 21
+        }, {
+            "name": "Name 5",
+            "marks": 0
+        }, {
+            "name": "Name 6",
+            "marks": 27
+        }, ];
 
-if(k==0){
-	console.log("There are no students getting marks more than"+ " "+m);
+        for (var i = 0; i < stud.length; i++) {
+            console.log(stud[i].marks);
+        }*/
 
-}
+        //Loop through object inside array
+        /*var b = {
+            maths: [12, 23, 45],
+            physics: [12, 23, 45],
+            chemistry: [12, 23, 45]
+        };
+        for (var i = 0; i < b.maths.length; i++) {
+            console.log(b.maths[i]); //will give all the elements
+        }*/
     </script>
-  </body>
+</body>
+
 </html>
